@@ -13,5 +13,4 @@ async def shutdown(dp):
 
 if __name__ == '__main__':
     from Handlers import dp
-
     executor.start_polling(dp, on_shutdown=shutdown)
